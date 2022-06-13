@@ -31,7 +31,7 @@ li{
 ul{
     padding-bottom: 5px;
 }
-li:hover{
+a:hover{
     font-weight: bold;
     cursor: pointer;
     border-bottom: 1px#000 solid;
