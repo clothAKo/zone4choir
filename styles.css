@@ -20,6 +20,8 @@ iframe{
     border: 0;
     margin: auto;
     width: 100%;
+    height: 500px;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -27,23 +29,34 @@ a{
 }
 li{
     list-style: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 ul{
     padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-a:hover{
+li:hover{
     font-weight: bold;
     cursor: pointer;
     border-bottom: 1px#000 solid;
 }
 .content{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .form{
     width: 70%;
+    padding: 5% 0 0 0;
 }
 .officers{
     display: flex;
@@ -60,6 +73,24 @@ h1{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
+    border-bottom: #000 solid 2px;
+    width: max-content;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
 }
 @media screen and (max-width: 600px) {
     .content{
