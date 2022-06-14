@@ -116,4 +116,20 @@ h1{
     .officers{
         margin: 10px;
     }
+    li{
+        list-style: none;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    ul{
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
